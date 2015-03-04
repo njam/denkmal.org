@@ -1,0 +1,10 @@
+# Codeception Test Suite Configuration
+
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver
+    config:
+        WebDriver:
+            url: 'http://www.denkmal.dev/'
+            browser: phantomjs
